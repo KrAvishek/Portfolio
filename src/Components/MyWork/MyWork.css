@@ -1,0 +1,518 @@
+/* .mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 10%;
+}
+
+.mywork-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    gap: 30px;
+}
+.mywork-container img{
+    width: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.mywork-container img:hover{
+    transform: scale(1.10);
+    border: 4px solid #ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.mywork-showmore{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.mywork-showmore img{
+    width: 25px;
+}
+.mywork-showmore:hover{
+    gap: 30px;
+    transition: 0.6s;
+}
+@media(max-width:768px){
+    .mywork{
+        gap: 50px;
+        margin: 50px 6%;
+        align-items: start;
+    }
+    
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .mywork-showmore{
+        padding: 15px 30px;
+        font-size: 16px;
+        margin: 10px auto;
+       
+    }
+    .mywork-showmore:hover{
+        gap: 20px;
+    }
+} */
+ 
+/* .mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 10%;
+  }
+  
+  .title-box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mywork-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .mywork-item {
+    position: relative;
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    transition: opacity 0.3s ease;  
+  }
+  
+  .work-details {
+    margin-right: 20px;
+  }
+  
+  .work-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .work-details p {
+    font-size: 18px;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .mywork-item:hover .image-overlay {
+    opacity: 1;  
+  }
+  
+  .image-overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+  }
+  
+  .overlay-links {
+    text-align: center;
+  }
+  
+  .overlay-links a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+   
+   .overlay-links a:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .mywork {
+      gap: 50px;
+      margin: 50px 6%;
+      align-items: start;
+    }
+  
+    .mywork-container {
+      grid-template-columns: 1fr;
+    }
+  } */
+
+  
+   /* .mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 10%;
+}
+
+.mywork-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    gap: 30px;
+}
+.mywork-container img{
+    width: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.mywork-container img:hover{
+    transform: scale(1.10);
+    border: 4px solid #ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.mywork-showmore{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.mywork-showmore img{
+    width: 25px;
+}
+.mywork-showmore:hover{
+    gap: 30px;
+    transition: 0.6s;
+}
+@media(max-width:768px){
+    .mywork{
+        gap: 50px;
+        margin: 50px 6%;
+        align-items: start;
+    }
+    
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .mywork-showmore{
+        padding: 15px 30px;
+        font-size: 16px;
+        margin: 10px auto;
+       
+    }
+    .mywork-showmore:hover{
+        gap: 20px;
+    }
+} */
+.mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 110px 10%;
+  }
+  
+  .title-box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container {
+    position : relative;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));; */
+    gap:60px;
+    width : 1100px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-wrap : wrap;
+    padding : 30px;  
+  }
+  /* .container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  } */
+  .card {
+    position: relative;
+    max-width : 400px;
+    height : 215px;  
+    /* background :linear-gradient(135deg, #fdbb2d, #22c1c3) ; */
+    /* background-color: #6e5494; */
+    /* background: linear-gradient(135deg, #56ab2f, #a8e063);  */
+    background: linear-gradient(to bottom, #c92b36, #453a94);
+    
+    /* background: linear-gradient(135deg, #fbc2eb, #a6c1ee); */
+    /* background: linear-gradient(135deg, #a1c4fd, #c2e9fb); */
+
+   
+    margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: space-between; 
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .container .card:hover {
+    height : 320px;    
+  }
+  
+  
+  .container .card .image {
+    position : relative;
+    width : 300px;
+    height : 400px;
+    
+    top : -40%;
+    left: 8px;
+    /* box-shadow : 0 5px 20px rgba(0, 0, 0, 0.89); */
+    z-index : 1;
+  }
+  
+  .container .card .image img {
+    max-width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+  
+  .container .card .content {
+    position: relative;
+    top: -140px;
+    padding: 10px 15px;
+    color:black;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+/* .container .card .content h3 {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 28px;
+    
+} */
+.container .card .content h3 {
+    color: #fff; /* Grayish blue color */
+    font-size: 26px;
+    font-weight: 800; /* Medium bold */
+    margin-bottom: 12px;
+    /* font-family: 'Noto Sans', sans-serif; Balanced sans-serif font */
+  }
+  
+  .container .card .content p {
+    color:#ffffffda;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif; /* Modern sans-serif font */
+    margin-bottom: 16px;
+  }
+  
+
+  .container .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+  .card-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensures links span the entire width */
+    margin-top: 10px; /* Pushes links to the bottom */
+    padding: 20px 0; /* Adds padding around links */
+  }
+  
+  .card-link {
+    padding: 8px 16px;
+    border-radius: 35px;
+    background-color: #8959d1b9;
+    
+    /*Button-likebackgroundcolor*/color: white;
+    /*Textcolor*/text-decoration: none;
+    transition: background-color 0.3s ease;/* Change on hover*/
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+
+}
+  
+  .card-link:hover {
+    /* background-color: #4e3a6f; Darken background color on hover */
+    background-color:#a9527d ;
+  }
+  .mywork-showmore{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-top: -50px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+    text-decoration: none; /*  no underline for the link */
+    color: #fff;
+
+}
+.mywork-showmore img{
+    width: 25px;
+}
+.mywork-showmore:hover{
+    gap: 30px;
+    transition: 0.6s;
+    border-color:#B415FF;;
+}
+ /* MyWork.css */
+/* .mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 10%;
+  }
+  
+  .title-box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mywork-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .mywork-item {
+    position: relative;
+    text-align: left;  Align title to the left 
+    padding-bottom: 20px;  Space after each item 
+    border-bottom: 1px solid #ccc;  Horizontal line 
+  }
+  
+  .work-details {
+    margin-right: 20px; Margin between title and description 
+  }
+  
+  .mywork-item h2 {
+    font-size: 24px;  Adjust as needed 
+    margin-bottom: 10px;
+  }
+  
+  .mywork-item p {
+    font-size: 18px;  Adjust as needed 
+  }
+  
+  .image-overlay {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px; 
+    margin-bottom: 10px;
+  }
+  
+  .image-overlay img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .mywork-item:hover .image-overlay img {
+    transform: scale(1.1);
+  }
+  
+  .overlay-links {
+    position: absolute;
+    bottom: 10px; /* Adjust position as needed */
+    /* left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, bottom 0.3s ease;
+  }
+  
+  .mywork-item:hover .overlay-links {
+    display: block;
+    opacity: 1;
+  }
+  
+  .overlay-links a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .overlay-links a:hover {
+    background-color: #0056b3;
+  }
+  /*  */
+  @media(max-width:768px) {
+    .mywork {
+      gap: 50px;
+      margin: 50px 10%;
+      align-items: start;
+    }
+  
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }  
+    
+    
